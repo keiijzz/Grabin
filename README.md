@@ -98,13 +98,6 @@ Git-Porto/
 
 Semua default ada di `src/grabin/config.py:DEFAULTS`. Yang di YAML menimpa default, yang di flag CLI menimpa YAML. Jadi urutan menang: **CLI > YAML > default**.
 
-## Roadmap (ide lanjutan biar porto makin hidup)
-
-- [ ] Bot Telegram: forward link dari HP → auto-download ke NAS/homelab
-- [ ] Web UI mini (FastAPI) buat paste link dari tablet
-- [ ] `--playlist` mode arsip channel kastil favorit
-- [ ] GitHub Actions: auto `yt-dlp -U` check tiap minggu
-
 ## Disclaimer
 
 Download hanya buat **koleksi pribadi / fair use**. Jangan re-upload karya orang tanpa izin. Kalau video private, pakai akun + cookies milik sendiri.

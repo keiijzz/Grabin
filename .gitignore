@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+downloads/*/
+downloads/.grabin_history.db
+!.gitkeep
+*.mp4
+*.mp3
+*.webm
+*.mkv
+cookies.txt
+*.info.json
+dist/
+build/
+*.egg-info/
+.pytest_cache/

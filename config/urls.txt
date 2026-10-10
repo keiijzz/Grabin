@@ -1,0 +1,5 @@
+# Taruh 1 URL per baris. Baris diawali # di-skip.
+# Contoh pakai: python -m grabin --batch config/urls.txt
+# https://www.facebook.com/reel/xxxxxxxxxx
+# https://www.tiktok.com/@user/video/123456789
+# https://www.instagram.com/reel/xxxxxxxxxx/

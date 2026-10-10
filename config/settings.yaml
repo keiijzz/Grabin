@@ -1,0 +1,27 @@
+# Default grabin. Copy-edit sesuai kebutuhan lo.
+# Semua path relatif dihitung dari root project (folder yang ada src/ dan config/).
+
+# Folder hasil download. Struktur otomatis: <output_dir>/<platform>/<tanggal>/Judul [id].mp4
+output_dir: "downloads"
+
+# best | 1080 | 720 | 480 | audio
+quality: "best"
+
+# True = langsung mp3 (atau format di bawah)
+audio_only: false
+audio_format: "mp3"
+
+# True = simpan .info.json & subtitle di sebelah video (bagus buat arsip)
+write_info: false
+write_subs: false
+
+# Buat link login-walled (IG private / FB / TikTok kena captcha):
+# Cara ambil cookies.txt: install ekstensi "Get cookies.txt LOCALLY" di Chrome,
+# buka sosmednya (pastiin udah login), export -> simpan jadi cookies.txt,
+# lalu isi salah satu di bawah ini:
+cookies_file: ""
+# alternatif tanpa file: "chrome" / "firefox" / "edge"
+cookies_from_browser: ""
+
+# True = download ulang walau video yang sama pernah disedot
+skip_history: false
